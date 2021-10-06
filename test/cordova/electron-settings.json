@@ -1,0 +1,9 @@
+{
+  "browserWindow": {
+    "devTools": false,
+    "webPreferences": {
+      "devTools": false,
+      "nodeIntegration": true
+    }
+  }
+}

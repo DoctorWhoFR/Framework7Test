@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+* {
+    font-family: 'Poppins'
+}
+
+.button {
+    background-color: #82ccdd;
+    color:white;
+}
+.button.active-state {
+    background-color: #60a3bc;
+}
+
+#test .navbar-bg {
+    background-color: #0c2461;
+}
+
+#test .item-link {
+    background-color: #4a69bd;
+}
+
+#test .page-content {
+    background: #1e3799;
+}
+
+.widget .card-header {
+    color:white;
+}
+
+.widget_info_price {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.widget_info_price.not-md {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+
+.widget_info_title {
+    font-weight: lighter;
+}
+
+.widget_info_title.not-md {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/**
+Accueil Css
+**/
+#mainBlock {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#accueil .title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-header.framework7 {
+    background-image: url(share-banner.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 163px;
+}
+
+.card-header.express {
+    background-image: url(express-facebook-share.png);
+    background-size: contain;
+    background-position-x: 1px;
+    background-repeat: no-repeat;
+    padding-top: 163px;
+    background-position-y: 17px;
+}
+
+
+
+.card-header.svelte {
+    background: url(svelte.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 46px;
+    padding-top: 163px;
+}
+
+#blogs .no-border.card-header{
+    background-position: center;
+    background-size: cover;
+    padding: 73px;
+}
